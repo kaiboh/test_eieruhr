@@ -31,7 +31,7 @@
     "devDependencies": {
         "eslint": ">=7.17.0",
         "eslint-config-xo": "^0.40.0",
-        "xo": "^0.47.0"
+        "xo": "^0.48.0"
     },
     "xo": {
       "space": false,
