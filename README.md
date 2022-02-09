@@ -1,4 +1,3 @@
 # test_eieruhr
 
-Beispielcode, nicht für produktiven Einsatz gedacht
- README Ende
+Beispielcode, nicht für den produktiven Einsatz gedacht
