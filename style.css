@@ -1,0 +1,18 @@
+.backround-dark { 
+    background-color: #262626;
+} 
+
+.center { 
+    display: flex;
+    justify-content: center;
+}
+
+.margin-top { 
+    margin-top: 100px;
+}
+
+.timer { 
+    font-size: 60px; 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
