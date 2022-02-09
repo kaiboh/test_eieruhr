@@ -7,10 +7,14 @@ Beispielcode, nicht für den produktiven Einsatz gedacht
 
 Clone the repository to your local machine (assuming Linux):
 
-git clone https://github.com/kaiboh/test_eieruhr 
+git clone https://github.com/kaiboh/test_eieruhr
+
 cd test_eieruhr
+
 npm install
+
 npm test
+
 
 # TODO
 
