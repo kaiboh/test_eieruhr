@@ -36,16 +36,20 @@
     "xo": {
       "space": false,
       "rules": {
-        "unicorn/no-for-loop": "off",
-        "camelcase": "off",
+        "unicorn/no-for-loop": "warn",
+        "linebreak-style": ["error", "windows"],
+        "semi": "warn",
+        "camelcase": "warn",
         "no-mixed-spaces-and-tabs": "warn",
         "no-useless-escape": "warn",
         "indent": "off",
         "quotes": "warn",
         "capitalized-comments": "off",
         "no-var": "warn",
-        "prefer-arrow-callback": "off",
-        "max-depth": "off",
+        "padded-blocks": "warn",
+        "prefer-arrow-callback": "warn",
+        "prefer-const":"warn",
+        "max-depth": "warn",
         "object-shorthand": [
           "off",
           "always",
@@ -54,7 +58,8 @@
           }
         ],
         "quote-props": "error",
-        "no-unused-vars": "error",
+        "no-unused-vars": "warn",
+        "no-undef": "warn",
         "curly": [
           "error",
           "multi-or-nest",
@@ -66,7 +71,10 @@
             "classes": false
           }
         ],
-        "unicorn/prefer-module": "off"
+        "unicorn/prefer-module": "warn",
+        "unicorn/prefer-date-now": "warn",
+        "no-trailing-spaces": "warn",
+        "space-before-function-paren": "warn"
       }
     }
   }

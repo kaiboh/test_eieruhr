@@ -28,4 +28,4 @@ function startTimer() {
         }, 1000)
         timerStarted = true;
     }   
-}   
+}
