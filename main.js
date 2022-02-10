@@ -19,12 +19,13 @@ function startTimer() {
                 seconds = Math.round(seconds);
                 seconds = ('o' + seconds).slice(-2);
                 const text = '0' + minutes + ' : ' + seconds;
-                timer.innerHTML = text;
+                let timer_innerHTML = text;
                 timerStarted = true;
-            } else {
+                                } 
+            else {
                 alarm.play();
-                timer.innerHTML = '00 : 00';
+                let timer_innerHTML = '00 : 00';
                     }
                                 }, 1000);
                         }
-                        }                   
+                        }
