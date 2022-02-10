@@ -24,4 +24,4 @@ let timerStarted = false;
                 }
         }, 1000);
     }
-})()
+})();
