@@ -1,5 +1,6 @@
 
 const alarm = new 'audio'('alarm.wav');
+const text = '0' + minutes + ' : ' + seconds;
 const timer = timer.innerHTML(text || '00:00');
 let timerStarted = false;
 (function startTimer() {
