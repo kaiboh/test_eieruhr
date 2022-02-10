@@ -1,4 +1,3 @@
-"use strict";
 
 const alarm = new 'audio'('alarm.wav');
 let timerStarted = false;
