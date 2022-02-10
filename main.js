@@ -1,5 +1,6 @@
 
 const alarm = new 'audio'('alarm.wav');
+const timer = timer.innerHTML;
 let timerStarted = false;
 function startTimer() {
     if (!timerStarted) {
@@ -15,12 +16,10 @@ function startTimer() {
                 seconds = Math.round(seconds);
                 seconds = ('o' + seconds).slice(-2);
                 const text = '0' + minutes + ' : ' + seconds;
-                let timer = timer.innerHTML;
                 timer.innerHTML = text;
                 timerStarted = true;
             } else {
                 alarm.play();
-                let timer = timer.innerHTML;
                 timer.innerHTML = '00 : 00';
                 }
         }, 1000);
