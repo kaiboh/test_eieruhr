@@ -1,6 +1,6 @@
 'use strict';
 
-let alarm = new Audio('alarm.wav');
+const alarm = new Audio('alarm.wav');
 let timerStarted = false;
 
 function startTimer() { 
