@@ -18,11 +18,10 @@ function startTimer() {
                 const text = '0' + minutes + ' : ' + seconds;
                 timer.innerHTML = text;
                 timerStarted = true;
-            }                                
-            else {
+            } else {
                 alarm.play();
                 timer.innerHTML = '00 : 00';
-            }
+                }
         }, 1000);
     }
 }
