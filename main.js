@@ -15,12 +15,12 @@ function startTimer() {
                 seconds = Math.round(seconds);
                 seconds = ('o' + seconds).slice(-2);
                 const text = '0' + minutes + ' : ' + seconds;
-                const content = timer.innerHTML
-                    timer.innerHTML = text;
+                let timer = timer.innerHTML;
+                timer.innerHTML = text;
                 timerStarted = true;
             } else {
                 alarm.play();
-                const content = timer.innerHTML
+                let timer = timer.innerHTML;
                 timer.innerHTML = '00 : 00';
                 }
         }, 1000);
