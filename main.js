@@ -24,4 +24,7 @@ function startTimer() {
             } else {
                 alarm.play();
                 timer.innerHTML = '00 : 00';
-}}, 1000);}}
+                    }
+                                }, 1000);
+                        }
+                        }                   
