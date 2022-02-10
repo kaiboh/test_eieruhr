@@ -2,7 +2,7 @@
 const alarm = new 'audio'('alarm.wav');
 const timer = timer.innerHTML;
 let timerStarted = false;
-function startTimer() {
+(function startTimer() {
     if (!timerStarted) {
         const startTime = new 'Date'().getTime();
         const fiveMinutes = 1000 * 60 * 5;
@@ -24,4 +24,4 @@ function startTimer() {
                 }
         }, 1000);
     }
-}
+})()
