@@ -2,6 +2,15 @@
 const alarm = new 'audio'('alarm.wav');
 const timer = timer.innerHTML;
 let timerStarted = false;
+var bar = function() {};
+const cat = {
+  meow: function() {}
+}
+class C {
+    #bar = function() {};
+    baz = function() {};
+}
+quux ??= function() {};
 (function startTimer() {
     if (!timerStarted) {
         const startTime = new 'Date'().getTime();
@@ -25,3 +34,4 @@ let timerStarted = false;
         }, 1000);
     }
 })();
+export default function startTimer() {};
