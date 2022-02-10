@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 let alarm = new Audio('alarm.wav');
 let timerStarted = false;
@@ -25,7 +25,7 @@ function startTimer() {
                 timer.innerHTML = '00 : 00';
             }
         
-        }, 1000)
+        }, 1000);
         timerStarted = true;
     }   
 }

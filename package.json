@@ -1,81 +1,82 @@
 {
-    "name": "Test-Eieruhr",
-    "version": "2022.02.09",
-    "description": "Just some sample to test features of GitHub.",
-    "main": "main.js",
-    "keywords": [
-      "Eieruhr"
-    ],
-    "engines": {
-      "node": ">=12.22.1"
-    },
-    "author": "Kai Bohstedt",
-    "license": "MIT",
-    "config": {
-      "urls": []
-    },
-    "dependencies": {
-    },
-    "scripts": {
-      "pretest": "eslint --ignore-path package.json --ignore-pattern '.gitignore'",
-      "test": "xo"
-    },
-    "bugs": {
-      "url": "https://github.com/kaiboh/test_eieruhr/issues"
-    },
-    "homepage": "https://github.com/kaiboh/test_eieruhr#readme",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kaiboh/test_eieruhr.git"
-    },
-    "devDependencies": {
-        "eslint": ">=7.17.0",
-        "eslint-config-xo": "^0.40.0",
-        "xo": "^0.48.0"
-    },
-    "xo": {
-      "space": false,
-      "rules": {
-        "unicorn/no-for-loop": "warn",
-        "linebreak-style": ["error", "windows"],
-        "semi": "warn",
-        "camelcase": "warn",
-        "no-mixed-spaces-and-tabs": "warn",
-        "no-useless-escape": "warn",
-        "indent": "off",
-        "quotes": "warn",
-        "capitalized-comments": "off",
-        "no-var": "warn",
-        "padded-blocks": "warn",
-        "prefer-arrow-callback": "warn",
-        "prefer-const":"warn",
-        "max-depth": "warn",
-        "object-shorthand": [
-          "off",
-          "always",
-          {
-            "ignoreConstructors": true
-          }
-        ],
-        "quote-props": "error",
-        "no-unused-vars": "warn",
-        "no-undef": "warn",
-        "curly": [
-          "error",
-          "multi-or-nest",
-          "consistent"
-        ],
-        "no-use-before-define": [
-          "error",
-          {
-            "classes": false
-          }
-        ],
-        "unicorn/prefer-module": "warn",
-        "unicorn/prefer-date-now": "warn",
-        "no-trailing-spaces": "warn",
-        "space-before-function-paren": "warn"
-      }
+  "name": "Test-Eieruhr",
+  "version": "2022.02.09",
+  "description": "Just some sample to test features of GitHub.",
+  "main": "main.js",
+  "keywords": [
+    "Eieruhr"
+  ],
+  "engines": {
+    "node": ">=12.22.1"
+  },
+  "author": "Kai Bohstedt",
+  "license": "MIT",
+  "config": {
+    "urls": []
+  },
+  "dependencies": {},
+  "scripts": {
+    "pretest": "eslint --ignore-path package.json --ignore-pattern '.gitignore'",
+    "test": "xo"
+  },
+  "bugs": {
+    "url": "https://github.com/kaiboh/test_eieruhr/issues"
+  },
+  "homepage": "https://github.com/kaiboh/test_eieruhr#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiboh/test_eieruhr.git"
+  },
+  "devDependencies": {
+    "eslint": ">=7.17.0",
+    "eslint-config-xo": "^0.40.0",
+    "xo": "^0.48.0"
+  },
+  "xo": {
+    "space": false,
+    "rules": {
+      "unicorn/no-for-loop": "warn",
+      "linebreak-style": [
+        "error",
+        "windows"
+      ],
+      "semi": "error",
+      "camelcase": "warn",
+      "no-mixed-spaces-and-tabs": "warn",
+      "no-useless-escape": "warn",
+      "indent": "off",
+      "quotes": "warn",
+      "capitalized-comments": "off",
+      "no-var": "warn",
+      "padded-blocks": "warn",
+      "prefer-arrow-callback": "warn",
+      "prefer-const": "warn",
+      "max-depth": "warn",
+      "object-shorthand": [
+        "off",
+        "always",
+        {
+          "ignoreConstructors": true
+        }
+      ],
+      "quote-props": "error",
+      "no-unused-vars": "warn",
+      "no-undef": "warn",
+      "curly": [
+        "error",
+        "multi-or-nest",
+        "consistent"
+      ],
+      "no-use-before-define": [
+        "error",
+        {
+          "classes": false
+        }
+      ],
+      "unicorn/prefer-module": "warn",
+      "unicorn/prefer-date-now": "warn",
+      "no-trailing-spaces": "warn",
+      "space-before-function-paren": "warn"
     }
   }
-  
+}
