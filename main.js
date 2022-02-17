@@ -1,7 +1,7 @@
-const alarm = new Audio('alarm.wav');
-const timerStarted = false;
-const timerObject;
-const timerMinutes = 6;
+let alarm = new Audio('alarm.wav');
+let timerStarted = false;
+let timerObject;
+let timerMinutes = 6;
 document.querySelector('#timer').innerHTML = '0' + timerMinutes.toString() + ' : 00';
 
 function startTimer() {
