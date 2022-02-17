@@ -29,9 +29,9 @@ function startTimer() {
         }, 1000);
         document.querySelector('#startButton').innerHTML = 'timer started - click to stop';
         timerStarted = true;
-    }
+        }
     else
-    {
+        {
         clearInterval(timerObject);
         timerStarted = false;
         document.querySelector('#timer').innerHTML = '0' + timerMinutes.toString() + ' : 00';
