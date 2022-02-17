@@ -7,12 +7,12 @@ document.querySelector('#timer').innerHTML = '0' + timerMinutes.toString() + ' :
 function startTimer() {
 
     if (timerStarted === false) {
-        const startTime = new Date().Date.now();
+        const startTime = Date.now();
         const fiveMinutes = 1000 * 60 * timerMinutes;
         const endTime = startTime + fiveMinutes;
 
         timerObject = setInterval(function() {
-            const timeLeft = endTime - new Date().Date.now();
+            const timeLeft = endTime - Date.now();
 
             if (timeLeft > 0) {
                 let minutes = timeLeft / (1000 * 60);
@@ -29,7 +29,7 @@ function startTimer() {
         }, 1000);
         document.querySelector('#startButton').innerHTML = 'timer started - click to stop';
         timerStarted = true;
-    }
+        }
     else {
         clearInterval(timerObject);
         timerStarted = false;
