@@ -3,6 +3,7 @@ const alarm = new Audio();
 let timerStarted = false;
 let timerObject;
 const timerMinutes = 6;
+let document;
 document.querySelector('#timer').innerHTML = '0' + timerMinutes.toString() + ' : 00';
 function startTimer() {
 
