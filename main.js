@@ -1,5 +1,5 @@
 const Audio = ('alarm.wav');
-const alarm = new Audio;
+const alarm = new Audio();
 let timerStarted = false;
 let timerObject;
 const timerMinutes = 6;
