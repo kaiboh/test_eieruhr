@@ -12,7 +12,7 @@ function startTimer() {
         const fiveMinutes = 1000 * 60 * timerMinutes;
         const endTime = startTime + fiveMinutes;
 
-        timerObject = setInterval(function () {
+        timerObject = setInterval(function startTimer() {
             const timeLeft = endTime - Date.now();
 
             if (timeLeft > 0) {
