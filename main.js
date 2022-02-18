@@ -7,7 +7,6 @@ const timerMinutes = 6;
 let document;
 document.querySelector('#timer').innerHTML = '0' + timerMinutes.toString() + ' : 00';
 function startTimer() {
-
     if (timerStarted === false) {
         const startTime = Date.now();
         const fiveMinutes = 1000 * 60 * timerMinutes;
