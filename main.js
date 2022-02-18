@@ -22,6 +22,7 @@ function startTimer() {
                 seconds = Math.round(seconds);
                 seconds = ('0' + seconds).slice(-2);
                 const text = '0' + minutes + ' : ' + seconds;
+                let timer;
                 timer.innerHTML = text;
             } else {
                 alarm.play();
