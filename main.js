@@ -1,9 +1,8 @@
 const alarm = new Audio('alarm.wav');
 let timerStarted = false;
 let timerObject;
-let timerMinutes = 6;
+const timerMinutes = 6;
 document.querySelector('#timer').innerHTML = '0' + timerMinutes.toString() + ' : 00';
-
 function startTimer() {
 
     if (timerStarted === false) {
@@ -11,7 +10,7 @@ function startTimer() {
         const fiveMinutes = 1000 * 60 * timerMinutes;
         const endTime = startTime + fiveMinutes;
 
-        timerObject = setInterval(function() {
+        timerObject = setInterval (function() {
             const timeLeft = endTime - Date.now();
 
             if (timeLeft > 0) {
