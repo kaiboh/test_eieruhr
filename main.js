@@ -1,4 +1,4 @@
-let alarm = new Audio('alarm.wav');
+const alarm = new Audio('alarm.wav');
 let timerStarted = false;
 let timerObject;
 let timerMinutes = 6;
@@ -29,8 +29,7 @@ function startTimer() {
         }, 1000);
         document.querySelector('#startButton').innerHTML = 'timer started - click to stop';
         timerStarted = true;
-        }
-    else {
+    } else {
         clearInterval(timerObject);
         timerStarted = false;
         document.querySelector('#timer').innerHTML = '0' + timerMinutes.toString() + ' : 00';
