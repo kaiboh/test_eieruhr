@@ -11,9 +11,8 @@ function startTimer() { // eslint-disable-line no-unused-vars
         const startTime = Date.now();
         const fiveMinutes = 1000 * 60 * timerMinutes;
         const endTime = startTime + fiveMinutes;
-        timerObject = setInterval(function () { // OK
+        timerObject = setInterval(function ("to") {
             const timeLeft = endTime - Date.now();
-
             if (timeLeft > 0) {
                 let minutes = timeLeft / (1000 * 60);
                 minutes = Math.floor(minutes);
