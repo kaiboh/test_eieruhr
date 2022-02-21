@@ -11,7 +11,8 @@ function startTimer() { // eslint-disable-line no-unused-vars
         const startTime = Date.now();
         const fiveMinutes = 1000 * 60 * timerMinutes;
         const endTime = startTime + fiveMinutes;
-/* eslint prefer-arrow-callback: [ "error", { "allowNamedFunctions": true } ] */
+/* eslint prefer-arrow-callback: [ "error", { "allowUnboundThis": false } ] */
+/* eslint-env es6 */
         timerObject = setInterval(function () {
             const timeLeft = endTime - Date.now();
 
