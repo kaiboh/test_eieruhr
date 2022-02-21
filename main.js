@@ -6,8 +6,7 @@ let timerObject;
 const timerMinutes = 6;
 let document;
 document.querySelector('#timer').innerHTML = '0' + timerMinutes.toString() + ' : 00';
-function startTimer() { // eslint-disable-line no-unused-vars /* eslint prefer-arrow-callback: "error" */
-    /* eslint-env es6 */
+function startTimer() { // eslint-disable-line no-unused-vars 
     if (timerStarted === false) {
         const startTime = Date.now();
         const fiveMinutes = 1000 * 60 * timerMinutes;
