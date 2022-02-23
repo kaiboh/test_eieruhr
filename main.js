@@ -11,7 +11,7 @@ function startTimer() { // eslint-disable-line no-unused-vars
         const startTime = Date.now();
         const fiveMinutes = 1000 * 60 * timerMinutes;
         const endTime = startTime + fiveMinutes;
-        timerObject = setInterval(function (setInterval) {
+        timerObject = setInterval(function*() {
             const timeLeft = endTime - Date.now();
             if (timeLeft > 0) {
                 let minutes = timeLeft / (1000 * 60);
@@ -25,7 +25,7 @@ function startTimer() { // eslint-disable-line no-unused-vars
                 alarm.play();
                 timer.innerHTML = '00 : 00';
                 }
-        }, 1000); 
+        }, 1000);
         document.querySelector('#startButton').innerHTML = 'timer started - click to stop';
         timerStarted = true;
     } else {
