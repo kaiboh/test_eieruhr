@@ -14,7 +14,6 @@
   "config": {
     "urls": []
   },
-  "dependencies": {},
   "scripts": {
     "pretest": "eslint --ignore-path package.json --ignore-pattern '.gitignore'",
     "test": "xo"
@@ -30,6 +29,7 @@
   "devDependencies": {
     "eslint": ">=7.17.0",
     "eslint-config-xo": "^0.40.0",
+    "stylelint-css-modules": "^1.2.1",
     "xo": "^0.48.0"
   },
   "xo": {
