@@ -27,7 +27,7 @@
     "url": "git+https://github.com/kaiboh/test_eieruhr.git"
   },
   "devDependencies": {
-    "eslint": ">=8.18.0",
+    "eslint": ">=8.30.0",
     "eslint-config-xo": "^0.41.0",
     "stylelint-css-modules": "^1.2.2",
     "xo": "^0.50.0"
